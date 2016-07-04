@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+       android:title="详情"
+        >
+       <menu>
+           <item
+
+               android:icon="@mipmap/video"
+               android:id="@+id/video"
+               android:title="视频"
+               ></item>
+           <item
+               android:id="@+id/news"
+               android:title="新闻"
+               android:icon="@mipmap/news"
+               ></item>
+
+       </menu>
+    </item>
+
+</menu>

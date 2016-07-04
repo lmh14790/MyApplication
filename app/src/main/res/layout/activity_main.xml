@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yztc.myapplication.MainActivity">
+    <com.jeremyfeinstein.slidingmenu.lib.SlidingMenu
+        xmlns:sliding="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/slidingMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        sliding:viewBehind="@layout/behind"
+        sliding:viewAbove="@layout/above"
+        sliding:touchModeAbove="margin"
+        sliding:behindWidth="300dp"
+        sliding:behindScrollScale="1.0"
+        sliding:shadowDrawable="@drawable/myshape"
+        sliding:shadowWidth="40dp"
+        sliding:fadeEnabled="true"
+        sliding:fadeDegree="1.0"
+        >
+    </com.jeremyfeinstein.slidingmenu.lib.SlidingMenu>
+
+</LinearLayout>
